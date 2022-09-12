@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/caiom/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/caiom/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

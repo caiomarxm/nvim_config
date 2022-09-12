@@ -20,6 +20,8 @@ return require('packer').startup(function(use)
   use 'ThePrimeagen/harpoon'
   use 'Mofiqul/dracula.nvim'
   use 'jiangmiao/auto-pairs'
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/nvim-cmp'
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
