@@ -10,6 +10,9 @@ vim.opt.expandtab = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+-- For autocompletion
+vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
+
 vim.opt.smartindent = true
 
 vim.opt.scrolloff = 999
