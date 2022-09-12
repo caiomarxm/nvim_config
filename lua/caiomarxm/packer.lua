@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use 'tpope/vim-unimpaired'
   use 'ThePrimeagen/harpoon'
   use 'Mofiqul/dracula.nvim'
+  use 'jiangmiao/auto-pairs'
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
