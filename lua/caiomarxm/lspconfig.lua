@@ -43,6 +43,8 @@ require('lspconfig')['pyright'].setup{
         flags = lsp_flags,
 }
 require('lspconfig')['clangd'].setup{}
+require('lspconfig')['cssmodules_ls'].setup{}
+require('lspconfig')['tsserver'].setup{}
 
 
 -- cmp and snippets
