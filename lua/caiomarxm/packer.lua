@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-nvim-lsp'
   use 'L3MON4D3/LuaSnip'
   use 'rafamadriz/friendly-snippets'
+  use 'nvim-lualine/lualine.nvim'
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
