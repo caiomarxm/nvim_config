@@ -39,14 +39,19 @@ local lsp_flags = {
 
 
 -- SERVERS
+-- Python
 require('lspconfig')['pyright'].setup{
     on_attach = on_attach,
         flags = lsp_flags,
 }
-require('lspconfig')['clangd'].setup{}
-require('lspconfig')['tsserver'].setup{}
 
--- Setting HTML and CSS Autocompletion
+-- C
+require('lspconfig')['clangd'].setup{}
+
+-- JavaScript / HTML / CSS / TS
+require('lspconfig')['tsserver'].setup{}
+require('lspconfig')['tailwindcss'].setup{}
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 require('lspconfig')['html'].setup{capabilities=capabilities}
