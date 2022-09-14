@@ -5,6 +5,7 @@ require("caiomarxm.remap")
 require("caiomarxm.lspconfig")
 require("caiomarxm.lualine")
 require("caiomarxm.treesitter")
+require("caiomarxm.dap")
 
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
