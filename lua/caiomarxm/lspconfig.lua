@@ -37,7 +37,8 @@ local lsp_flags = {
   debounce_text_changes = 150,
 }
 
--- Servers
+
+-- SERVERS
 require('lspconfig')['pyright'].setup{
     on_attach = on_attach,
         flags = lsp_flags,
@@ -45,6 +46,12 @@ require('lspconfig')['pyright'].setup{
 require('lspconfig')['clangd'].setup{}
 require('lspconfig')['cssmodules_ls'].setup{}
 require('lspconfig')['tsserver'].setup{}
+
+-- Setting HTML and CSS Autocompletion
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+require('lspconfig')['html'].setup{capabilities=capabilities}
+require('lspconfig')['cssls'].setup{capabilities=capabilities}
 
 
 -- cmp and snippets
