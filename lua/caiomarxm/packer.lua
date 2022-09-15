@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use 'tpope/vim-unimpaired'
   use 'Mofiqul/dracula.nvim'
   use 'jiangmiao/auto-pairs'
+  use 'tpope/vim-surround'
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'

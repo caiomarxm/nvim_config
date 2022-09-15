@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/caiom/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vim-unimpaired"] = {
     loaded = true,
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/vim-unimpaired",
