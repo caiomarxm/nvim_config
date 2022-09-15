@@ -17,7 +17,6 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
   use 'tpope/vim-unimpaired'
-  use 'ThePrimeagen/harpoon'
   use 'Mofiqul/dracula.nvim'
   use 'jiangmiao/auto-pairs'
   use 'neovim/nvim-lspconfig'
