@@ -7,3 +7,5 @@ nnoremap("<leader>nr", "<cmd>NvimTreeRefresh<CR>")
 nnoremap("<leader>nf", "<cmd>NvimTreeFindFile<CR>")
 nnoremap("<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
 
+-- Hover Buffer
+nnoremap("<leader>i", "<cmd>lua vim.lsp.buf.hover()<CR>")

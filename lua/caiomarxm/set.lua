@@ -20,3 +20,4 @@ vim.opt.scrolloff = 999
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+
