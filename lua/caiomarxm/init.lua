@@ -1,11 +1,8 @@
 require("caiomarxm.set")
+require("caiomarxm.remap.remap")
+require("caiomarxm.apparel.init_apparel")
 require("caiomarxm.packer")
-require("caiomarxm.nvimtree")
-require("caiomarxm.remap")
-require("caiomarxm.lspconfig")
-require("caiomarxm.lualine")
-require("caiomarxm.treesitter")
-require("caiomarxm.dap")
+require("caiomarxm.functionalities.init_functionalities")
 
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1

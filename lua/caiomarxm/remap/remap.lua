@@ -1,4 +1,4 @@
-local nnoremap = require("caiomarxm.keymap").nnoremap
+local nnoremap = require("caiomarxm.remap.keymap").nnoremap
 
 nnoremap("<leader>o", "<cmd>NvimTreeOpen<CR>")
 nnoremap("<leader>c", "<cmd>NvimTreeClose<CR>")
