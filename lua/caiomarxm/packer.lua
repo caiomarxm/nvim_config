@@ -29,9 +29,16 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'onsails/lspkind.nvim'
   use 'windwp/nvim-ts-autotag'
-  use 'L3MON4D3/LuaSnip'
+  use {
+    'L3MON4D3/LuaSnip',
+    wants = "friendly-snippets",
+    config = function()
+      require("luasnip/loaders/from_vscode").lazy_load({ paths="~/.config/nvim/snippets/typescript/" })
+    end
+  }
   use 'rafamadriz/friendly-snippets'
   use 'nvim-lualine/lualine.nvim'
+  use 'manzeloth/live-server'
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {

@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["live-server"] = {
+    loaded = true,
+    path = "/home/caiom/.local/share/nvim/site/pack/packer/start/live-server",
+    url = "https://github.com/manzeloth/live-server"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/home/caiom/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
