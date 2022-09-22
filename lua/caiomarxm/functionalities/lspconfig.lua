@@ -46,6 +46,7 @@ require('lspconfig')['pyright'].setup{
 }
 
 -- C
+require('lspconfig')['csharp_ls'].setup{}
 require('lspconfig')['clangd'].setup{}
 
 -- JavaScript / HTML / CSS / TS
